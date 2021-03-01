@@ -1,0 +1,28 @@
+Instance Subway
+
+//Attributes
+isOpen = false;
+
+location = "Terminal 3";
+
+menu = ["Meatball Marinara", "BLT", "Turkey Club", "Ham and Cheese", "Philly Cheesesteak"];
+
+employees = ["Eric W.", "Jeff C.", "Erin W.", "Suzie K."];
+
+
+//Methods
+openRestaurant (isOpen = true;)
+
+closeRestaurant (isOpen = false;)
+
+addMenuItem (menu = ["Meatball Marinara", "BLT", "Turkey Club",
+            "Ham and Cheese", "Philly Cheesesteak", "PB & J"], adds PB & J to the menu)
+
+removeMenuItem (menu = ["BLT", "Turkey Club",
+            "Ham and Cheese", "Philly Cheesesteak", "PB & J"], removes Meatball Marinara from the menu)
+
+hireEmployee (employees = ["Eric W.", "Jeff C.", "Erin W.", "Suzie K.", "Caleb W."],
+              adds Caleb W. to the employees array)
+
+fireEmployee (employees = ["Eric W.", "Jeff C.", "Erin W.", "Caleb W."]
+              removes Suzie K. from the employee array)
