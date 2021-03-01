@@ -4,11 +4,11 @@ Class Restaurant
 isOpen (boolean)
 location (string)
 menu (array)
-employee (array)
+employees (array)
 //Methods
 openRestaurant (updates the isOpen attribute to true)
 closeRestaurant (updates the isOpen attribute to false)
 addMenuItem (updates the menu attribute by adding one new item)
 removeMenuItem (updates the menu attribute by removing one old item
-hireEmployee (updates the employee attribute by adding one new employee)
-fireEmployee (updates the employee attribute by removing one old employee)
+hireEmployee (updates the employees attribute by adding one new employee)
+fireEmployee (updates the employees attribute by removing one old employee)
