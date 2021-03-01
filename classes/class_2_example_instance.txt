@@ -1,0 +1,22 @@
+Instance Train
+//Attributes
+speed = 0;
+isMoving = false;
+isDoorShut = false;
+announcement = "Train departing in 2 minutes";
+
+//Methods
+
+shutDoor (isDoorShut = true;)
+accelerate (speed = 1;
+            isMoving = true;)
+
+accelerate (speed = 2;)
+
+brake (speed = 1;) // if speed is zero sets isMoving to false
+brake (speed = 0;
+        isMoving = false;)
+
+openDoor (isDoorShut = false;)
+
+updateAnnouncement (announcement = "Train will depart in 5 minutes";)
