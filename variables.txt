@@ -1,0 +1,10 @@
+var movie = "The Shawshank Redemption";
+var isEntertaining = true;
+movie = "Shrek";
+var num4 = 4;
+var num6 = 6;
+
+var product = num6 * num4;
+var favoriteFoods = ["Pizza", "Gelato", "Ramen"];
+favoriteFoods.shift();
+console.log(movie.length);
