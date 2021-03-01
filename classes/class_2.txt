@@ -3,10 +3,11 @@ Class InterterminalTransit
 speed (int)
 isMoving (boolean)
 isDoorShut (boolean)
-type (string)
+announcement (string)
 
 //Methods
 accelerate (increases the speed attribute by 1 & sets isMoving tp true)
 brake (decreases the speed attribute by 1, if speed is zero sets isMoving to false)
 openDoor (sets the isDoorShut attribute to false)
 shutDoor (sets the isDoorShut attribute to true)
+updateAnnouncement (sets the announcement string to a new value that is input by operator)
