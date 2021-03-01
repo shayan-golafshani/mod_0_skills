@@ -6,7 +6,7 @@ isDoorShut (boolean)
 announcement (string)
 
 //Methods
-accelerate (increases the speed attribute by 1 & sets isMoving tp true)
+accelerate (increases the speed attribute by 1 & sets isMoving to true)
 brake (decreases the speed attribute by 1, if speed is zero sets isMoving to false)
 openDoor (sets the isDoorShut attribute to false)
 shutDoor (sets the isDoorShut attribute to true)
